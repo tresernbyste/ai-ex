@@ -1,0 +1,12 @@
+body {
+  background: linear-gradient(0deg, rgb(116, 108, 108), rgb(24, 22, 22));
+}
+
+header {
+  position: static;
+}
+
+main li img {
+  width: 300px;
+  height: 280px;
+}

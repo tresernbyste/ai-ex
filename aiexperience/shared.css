@@ -1,0 +1,66 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+
+  display: flex;
+}
+header li {
+  padding: 10px;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.3);
+}
+
+header li a {
+  color: rgb(245, 243, 160);
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: rgb(240, 230, 165);
+  color: black;
+}
+
+#page-logo a {
+  padding: 10px;
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(245, 243, 160);
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.8);
+}
+
+footer {
+  background: linear-gradient(70deg, rgb(24, 24, 24), rgb(39, 46, 46));
+  /* height: 120px; */
+}
+footer ul {
+  list-style: none;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin: 20px;
+}
+
+.icon img {
+  height: 50px;
+}
